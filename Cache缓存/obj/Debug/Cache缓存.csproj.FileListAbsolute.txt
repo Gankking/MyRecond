@@ -1,0 +1,6 @@
+F:\vsproject file\Learn\Cache缓存\bin\Debug\Cache缓存.exe.config
+F:\vsproject file\Learn\Cache缓存\bin\Debug\Cache缓存.exe
+F:\vsproject file\Learn\Cache缓存\bin\Debug\Cache缓存.pdb
+F:\vsproject file\Learn\Cache缓存\obj\Debug\Cache缓存.exe
+F:\vsproject file\Learn\Cache缓存\obj\Debug\Cache缓存.pdb
+F:\vsproject file\Learn\Cache缓存\obj\Debug\Cache缓存.csprojResolveAssemblyReference.cache

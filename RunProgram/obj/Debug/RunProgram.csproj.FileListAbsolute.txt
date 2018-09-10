@@ -1,0 +1,7 @@
+F:\vsproject file\Learn\RunProgram\bin\Debug\RunProgram.exe.config
+F:\vsproject file\Learn\RunProgram\bin\Debug\RunProgram.exe
+F:\vsproject file\Learn\RunProgram\bin\Debug\RunProgram.pdb
+F:\vsproject file\Learn\RunProgram\bin\Debug\Sort.dll
+F:\vsproject file\Learn\RunProgram\bin\Debug\Sort.pdb
+F:\vsproject file\Learn\RunProgram\obj\Debug\RunProgram.exe
+F:\vsproject file\Learn\RunProgram\obj\Debug\RunProgram.pdb

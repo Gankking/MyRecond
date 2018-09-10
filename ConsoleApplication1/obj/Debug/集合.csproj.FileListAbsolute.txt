@@ -1,0 +1,5 @@
+F:\vsproject file\Learn\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+F:\vsproject file\Learn\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+F:\vsproject file\Learn\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+F:\vsproject file\Learn\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+F:\vsproject file\Learn\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

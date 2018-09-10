@@ -1,0 +1,5 @@
+F:\vsproject file\Learn\SQA.Web.Test\bin\Debug\SQA.Web.Test.exe.config
+F:\vsproject file\Learn\SQA.Web.Test\bin\Debug\SQA.Web.Test.exe
+F:\vsproject file\Learn\SQA.Web.Test\bin\Debug\SQA.Web.Test.pdb
+F:\vsproject file\Learn\SQA.Web.Test\obj\Debug\SQA.Web.Test.exe
+F:\vsproject file\Learn\SQA.Web.Test\obj\Debug\SQA.Web.Test.pdb

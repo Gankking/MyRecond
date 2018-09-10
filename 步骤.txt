@@ -1,0 +1,10 @@
+1. 新建立控制台应用
+2. 创建model文件夹存放类
+3. 创建Context上下文
+4. 添加NuGet程序包--Entity Framework
+5. App.config 添加
+	<!-- 连接数据库字符串-->
+	<connectionStrings>
+		<!--<add name="DBFirstContextConnString" connectionString="metadata=res://*/DBFirst.DBFirst.csdl|res://*/DBFirst.DBFirst.ssdl|res://*/DBFirst.DBFirst.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=ElevenPC;initial catalog=advanced8;persist security info=True;user id=sa;password=Passw0rd;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />-->
+		<add name="CodeFirstDB" connectionString="data source=HERMESCOMPUTER;initial catalog=Roumou_Advanced8;persist security info=True;user id=sa;password=123456;MultipleActiveResultSets=True;App=EntityFramework" providerName="System.Data.SqlClient" />
+	</connectionStrings> 

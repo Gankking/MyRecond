@@ -1,0 +1,6 @@
+F:\vsproject file\Learn\异步多线程\bin\Debug\异步多线程.exe.config
+F:\vsproject file\Learn\异步多线程\bin\Debug\异步多线程.exe
+F:\vsproject file\Learn\异步多线程\bin\Debug\异步多线程.pdb
+F:\vsproject file\Learn\异步多线程\obj\Debug\异步多线程.exe
+F:\vsproject file\Learn\异步多线程\obj\Debug\异步多线程.pdb
+F:\vsproject file\Learn\异步多线程\obj\Debug\异步多线程.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+F:\vsproject file\Learn\SOA.Web.UnitTest\bin\Debug\SOA.Web.UnitTest.dll
+F:\vsproject file\Learn\SOA.Web.UnitTest\bin\Debug\SOA.Web.UnitTest.pdb
+F:\vsproject file\Learn\SOA.Web.UnitTest\obj\Debug\SOA.Web.UnitTest.dll
+F:\vsproject file\Learn\SOA.Web.UnitTest\obj\Debug\SOA.Web.UnitTest.pdb
+F:\vsproject file\Learn\SOA.Web.UnitTest\bin\Debug\SOA.Web.UnitTest.dll.config
+F:\vsproject file\Learn\SOA.Web.UnitTest\obj\Debug\SOA.Web.UnitTest.csprojResolveAssemblyReference.cache

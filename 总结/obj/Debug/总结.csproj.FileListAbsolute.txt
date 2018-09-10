@@ -1,0 +1,5 @@
+F:\vsproject file\Learn\总结\bin\Debug\总结.exe.config
+F:\vsproject file\Learn\总结\bin\Debug\总结.exe
+F:\vsproject file\Learn\总结\bin\Debug\总结.pdb
+F:\vsproject file\Learn\总结\obj\Debug\总结.exe
+F:\vsproject file\Learn\总结\obj\Debug\总结.pdb

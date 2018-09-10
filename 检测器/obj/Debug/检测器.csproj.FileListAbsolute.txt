@@ -1,0 +1,8 @@
+F:\vsproject file\Learn\检测器\bin\Debug\检测器.exe.config
+F:\vsproject file\Learn\检测器\bin\Debug\检测器.exe
+F:\vsproject file\Learn\检测器\bin\Debug\检测器.pdb
+F:\vsproject file\Learn\检测器\obj\Debug\检测器.csprojResolveAssemblyReference.cache
+F:\vsproject file\Learn\检测器\obj\Debug\检测器.exe
+F:\vsproject file\Learn\检测器\obj\Debug\检测器.pdb
+F:\vsproject file\Learn\检测器\bin\Debug\Sort.dll
+F:\vsproject file\Learn\检测器\bin\Debug\Sort.pdb

@@ -1,0 +1,5 @@
+F:\vsproject file\Learn\Sort\bin\Debug\Sort.dll
+F:\vsproject file\Learn\Sort\bin\Debug\Sort.pdb
+F:\vsproject file\Learn\Sort\obj\Debug\Sort.dll
+F:\vsproject file\Learn\Sort\obj\Debug\Sort.pdb
+F:\vsproject file\Learn\Sort\obj\Debug\排序.csprojResolveAssemblyReference.cache
