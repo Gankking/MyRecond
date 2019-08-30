@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/html5shiv.min.js"></script>
+    <!--[if lt IE 9]>
+　　    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.js"></script>
+ 　　   <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+    
+</head>
+<body>
+<article>
+    <div class="video"></div>
+</article>
+<script src="js/swfobject.js"></script>
+<script src="js/html5media.min.js"></script>
+<script>
+    function hasFlash() {
+        var swf=false;
+        if (navigator.userAgent.indexOf("MSIE") > 0) {
+            try {
+                swf = new ActiveXObject("ShockwaveFlash.ShockwaveFlash");                
+                alert('已安装flash插件');
+            }
+            catch (e) {
+                alert('没有安装flash插件a');
+            }
+        }
+        else{
+            if (navigator.userAgent.indexOf("Firefox") > 0 || navigator.userAgent.indexOf("Chrome") > 0) {
+                swf = navigator.plugins["Shockwave Flash"];
+                (swf) ? alert('已安装flash插件') : alert('没有安装flash插件b');
+            }
+        }
+        return swf;
+    }
+
+    function showFlashPlayer(hlsData)
+    {
+        $('.video').append($('<div id="player"></div>'));
+        $("#player").css({"width": "100%"});
+        var bHeight = $("#player").width() * 9 / 16;
+        $("#player").css("height", bHeight);
+
+
+        var hasFlash = false;
+        try {
+            hasFlash = Boolean(new ActiveXObject('ShockwaveFlash.ShockwaveFlash'));
+        } catch(exception) {
+            hasFlash = ('undefined' != typeof navigator.mimeTypes['application/x-shockwave-flash']);
+        }
+        //判断是否已安装flash播放插件
+        //if (req.hasFlash().f == 0) {
+        if(!hasFlash){
+            $("#player").css("background", "#000");
+            $("#player").html("<div style='margin:auto;width: 100%;padding-top:3em;font-size:0.8em;height:50px;text-align:center;color: #888;'>您的浏览器不支持该播放器，请您<a href='http://get.adobe.com/cn/flashplayer/'>下载/启用Flash播放器插件</a>或者改换其他浏览器进行播放</div>");
+            return;
+        }
+
+        var flashvars = {
+            // M3U8 url, or any other url which compatible with SMP player (flv, mp4, f4m)
+            // escaped it for urls with ampersands
+            // src: escape("http://hls.videocc.net/ce0812b122/c/ce0812b1223bb292333a4ce6e092a949_3.m3u8"),
+            src: escape(hlsData),
+            // url to OSMF HLS Plugin
+            //src: escape("http://video.fengj.com/1567066611.m3u8"),
+            //plugin_m3u8: "img/HLSProviderOSMF.swf",
+        };
+        var params = {
+            // self-explained parameters
+            allowFullScreen: true,
+            allowScriptAccess: "always",
+            bgcolor: "#000000"
+        };
+        var attrs = {
+            name: "player"
+        };
+        
+        swfobject.embedSWF(
+            // url to SMP player
+            "img/StrobeMediaPlayback.swf",
+            // div id where player will be place
+            "player",
+            // width, height
+            "60%", "485",
+            // minimum flash player version required
+            "10.0.0",
+            // other parameters
+            //null, flashvars, params, attrs
+            null,flashvars,params, attrs
+        );
+    }
+
+    var ua = navigator.userAgent;
+    if (/iphone|ipad|ipod|mac os x/.test(ua)) {//如果为苹果手机
+         var h5video = '<video width="100%" controls autoplay playsinline webkit-playsinline poster=' + posterUrl + '><source type="application/vnd.apple.mpegurl" src="'
+            + videoHls + '">浏览器不支持HTML5视频<br>you browser DO NOT support HTML5 video<br></video>';
+        $('.video').append($(h5video));
+    }else if (/android/.test(ua)) {//如果为安卓手机
+        var h5video = '<video width="100%" controls autoplay playsinline webkit-playsinline poster=' + posterUrl + '><source type="application/x-mpegURL" src="'
+            + videoHls + '">浏览器不支持HTML5视频<br>you browser DO NOT support HTML5 video<br></video>';
+        $('.video').append($(h5video));
+    } else {
+        //showFlashPlayer("http://video.fengj.com/1567067960.m3u8");
+        showFlashPlayer("http://www.the5fire.com/static/demos/diaosi.m3u8");   
+    }
+</script>
+</body>
+</html>
